@@ -1,44 +1,27 @@
-.Navbar {
-  width: 100%;
-  background-color: #f5f5f5; /* Slightly off-white for visual appeal */
-  position: fixed;
-  top: 0;
-  height: 60px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  z-index: 100; /* Ensure navbar stays on top of other elements */
+.Navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
 
-  .container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px; /* Add padding for visual breathing room */
-  }
-
-  .logo {
-    /* Style your logo here */
-  }
-
-  .right-side {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
-
-  .logout {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    color: #666; /* Gray for visual hierarchy */
-    cursor: pointer; /* Indicate interactivity */
-
-    &:hover {
-      color: #333; /* Darken on hover for feedback */
+    .container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
     }
-  }
 
-  /* Hover states for interaction */
-  .nav-link:hover {
-    color: #333;
-  }
+    .right-side{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        .logout{
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+    }
 }

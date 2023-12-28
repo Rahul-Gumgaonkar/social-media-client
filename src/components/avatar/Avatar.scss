@@ -1,13 +1,15 @@
-.Avatar{
+.Avatar {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-
-    img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        object-fit: cover;
-        
+    overflow: hidden; /* Ensure the image is fully contained within the rounded border */
+  
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center; /* Center the image within the container */
     }
-}
+  }
+  

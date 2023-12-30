@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { axiosClient } from "../../utils/axiosClient";
-import { setLoading } from "./appConfigSlice";
 import { likeAndUnlikedPost } from "./postsSlice";
 
 export const getFeedData = createAsyncThunk("user/getFeedData", async (_) => {

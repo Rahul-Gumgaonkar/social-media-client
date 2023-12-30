@@ -6,8 +6,8 @@ export const getUserProfile = createAsyncThunk(
   async (body) => {
     try {
       const response = await axiosClient.post("/user/getUserProfile", body);
-      console.log("user Profile : ", response);
-      console.log(response);
+      // console.log("user Profile : ", response);
+      // console.log(response);
       return response.result;
     } catch (error) {
       return Promise.reject(error);
@@ -20,7 +20,7 @@ export const likeAndUnlikedPost = createAsyncThunk(
   async (body) => {
     try {
       const response = await axiosClient.post("/posts/like", body);
-      console.log(response);
+      // console.log(response);
       return response.result.post;
     } catch (error) {
       return Promise.reject(error);
@@ -42,9 +42,9 @@ const postsSlice = createSlice({
       .addCase(likeAndUnlikedPost.fulfilled, (state, action) => {
         const post = action.payload;
         const index = state?.userProfile?.posts?.findIndex(
-          (item) => item._id == post._id
+          (item) => item._id === post._id
         );
-        if (index != undefined && index != -1) {
+        if (index !== undefined && index !== -1) {
           state.userProfile.posts[index] = post;
         }
       });

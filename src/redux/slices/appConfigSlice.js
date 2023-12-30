@@ -4,7 +4,7 @@ import { axiosClient } from "../../utils/axiosClient";
 export const getMyInfo = createAsyncThunk("user/getMyInfo", async () => {
   try {
     const response = await axiosClient.get("/user/getMyInfo");
-    console.log(response);
+    // console.log(response);
     return response.result;
   } catch (error) {
     return Promise.reject(error);

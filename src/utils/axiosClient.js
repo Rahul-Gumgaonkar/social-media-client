@@ -10,7 +10,7 @@ import {
   setItem,
 } from "./localStorageManager";
 
-export const axiosClient = await axios.create({
+export const axiosClient = axios.create({
   baseURL: process.env.REACT_APP_SERVER_BASE_URL,
   withCredentials: true,
 });

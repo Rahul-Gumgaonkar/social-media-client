@@ -106,3 +106,40 @@ The Post Creation Page allows users to create new posts by uploading images and 
 - **Recent Posts**: Located directly below the post creation section, showcasing the user's recent posts.
 
 ![Post Page](./Social%20Media/Post.png)
+
+## Update Profile Page Overview
+
+The Update Profile Page allows users to modify their personal information and manage their account settings. This page is essential for users to keep their profile details up to date and manage their account privacy.
+
+### Key Features
+
+1. **Profile Picture Update**:
+
+   - **Profile Image**: Users can update their profile picture by selecting a new image. The current profile picture is displayed prominently on the left side of the page.
+
+2. **Profile Information Update**:
+
+   - **Username Field**: Users can modify their username using the input field provided.
+   - **Bio Field**: Users can update their bio or description to reflect their current interests or status.
+
+3. **Submit Changes**:
+
+   - **Submit Button**: After making changes, users can click the "Submit" button to save their updated profile information.
+
+4. **Account Management**:
+   - **Delete Account**: A red "Delete Account" button is provided for users who wish to permanently delete their account from the platform.
+
+### User Interaction
+
+- **Update Profile Picture**: Users can click on their current profile picture to upload a new image.
+- **Modify Profile Details**: Users can easily edit their username and bio in the respective input fields.
+- **Save Changes**: After editing their profile, users can submit the changes using the "Submit" button.
+- **Account Deletion**: If a user decides to leave the platform, they can use the "Delete Account" button to remove their account permanently.
+
+### Visual Layout
+
+- **Profile Picture Section**: Displayed on the left-hand side, this section allows users to see and update their profile picture.
+- **Profile Information Section**: Positioned centrally on the page, this section includes input fields for the username and bio.
+- **Account Management Section**: Located below the profile information section, featuring a prominently displayed "Delete Account" button in red.
+
+![Update Profile Page](./Social%20Media/Update%20Profile.png)
